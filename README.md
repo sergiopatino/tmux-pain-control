@@ -43,9 +43,9 @@ a better binding for that, `prefix + a` (if your prefix is `C-a`).
 - `prefix + shift + h`<br/>
   resize current pane 5 cells to the left
 - `prefix + shift + j`<br/>
-  resize 5 cells in the up direction
-- `prefix + shift + k`<br/>
   resize 5 cells in the down direction
+- `prefix + shift + k`<br/>
+  resize 5 cells in the up direction
 - `prefix + shift + l`<br/>
   resize 5 cells to the right
 
@@ -64,6 +64,10 @@ The amount of cells to resize can be configured with `@pane_resize` option. See
   split current pane horizontally
 - `prefix + -`<br/>
   split current pane vertically
+- `prefix + \`<br/>
+  split current pane full width horizontally
+- `prefix + _`<br/>
+  split current pane full width vertically
 
 Newly created pane always has the same path as the original pane.
 
